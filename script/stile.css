@@ -144,7 +144,7 @@ big       { font-size: 120%; }
 
 .justify  { text-align: justify; }
 
-ul        { list-style-image:url(http://www.coopgloria.it/img/ico/ico_li.gif); line-height: 18px; }
+ul        { list-style-image:url(/img/ico/ico_li.gif); line-height: 18px; }
 
 h2        { text-align: left; margin: 1px 0px 0px 10px; }
 
@@ -211,7 +211,7 @@ DIV#body_sx p.sep {
 }
 
 
-.mlinf     { 
+.mlinf     {
 background: url(../img/mlinf.gif) top left no-repeat;
 width: auto;
 height: 16px;
@@ -221,7 +221,7 @@ margin: 0px 30px 0px 25px;
 cursor: hand;
 cursor: pointer;
 }
-.mlcom     { 
+.mlcom     {
 background: url(../img/mlcom.gif) top left no-repeat;
 width: auto;
 height: 16px;
