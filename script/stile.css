@@ -1,0 +1,233 @@
+body {
+     position: relative; background: #ffffff; color: #eeeeee; font-family: verdana, Arial; font-size: 12px;
+     margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-justify: distribute;
+}
+
+a:link     { color: #eeeeee; }
+a:visited  { color: #eeeeee; }
+a:hover    { color: #00AB00; text-decoration: none; }
+a:active   { color: #00AB00; }
+
+DIV#body_dx A:link     { color: #005E00; }
+DIV#body_dx A:visited  { color: #005E00; }
+DIV#body_dx A:hover    { color: #00AB00; text-decoration: none; }
+DIV#body_dx A:active   { color: #00AB00; }
+
+DIV#page         { position: relative; width: 778px; text-align: center; background: url(../img/sfnd_page.gif) repeat-y; overflow: hidden; }
+
+DIV#page .content{ position: relative; width: 732px; text-align: center; margin: 0px 23px 0px 23px; overflow: hidden; }
+
+DIV#head_sx      { position: relative; float: left; width: 321px; height: 167px; background: url(../img/layout/header_sx.jpg) no-repeat; text-align: left; }
+
+DIV#head_sx img  { position: relative; width: 321px; height: 127px; border: 0px; }
+
+DIV#head_dx      { position: relative; float: left; clear: right; width: 411px; height: 167px; background: url(../img/layout/header_dx.jpg) no-repeat; text-align: right; }
+
+DIV#head_dx img  { position: relative; width: 30px; height: 30px; border: 0px; }
+
+DIV#sub_head_sx  { position: relative; float: left; width: 732px; height: 47px; background: url(../img/layout/sub_header_dx.jpg) top right no-repeat; text-align: left; }
+
+DIV#sub_head_sx .puls1          { width: 69px; height: 47px; float: left; background: url(../img/puls/puls_head_zb.jpg) no-repeat; }
+DIV#sub_head_sx .puls1 a        { width: 69px; height: 47px; display: block; background: url(../img/puls/puls_head_za.jpg) no-repeat; }
+DIV#sub_head_sx .puls1 a:hover  { background: transparent; }
+DIV#sub_head_sx .puls1 a:active { background: transparent; }
+
+DIV#sub_head_sx .puls2          { width: 82px; height: 47px; float: left; background: url(../img/puls/puls_head_vb.jpg) no-repeat; }
+DIV#sub_head_sx .puls2 a        { width: 82px; height: 47px; display: block; background: url(../img/puls/puls_head_va.jpg) no-repeat; }
+DIV#sub_head_sx .puls2 a:hover  { background: transparent; }
+DIV#sub_head_sx .puls2 a:active { background: transparent; }
+
+DIV#sub_head_sx .puls3          { width: 82px; height: 47px; float: left; background: url(../img/puls/puls_head_yb.jpg) no-repeat; }
+DIV#sub_head_sx .puls3 a        { width: 82px; height: 47px; display: block; background: url(../img/puls/puls_head_ya.jpg) no-repeat; }
+DIV#sub_head_sx .puls3 a:hover  { background: transparent; }
+DIV#sub_head_sx .puls3 a:active { background: transparent; }
+
+DIV#sub_head_sx .puls4          { width: 95px; height: 47px; float: left; background: url(../img/puls/puls_head_ub.jpg) no-repeat; }
+DIV#sub_head_sx .puls4 a        { width: 95px; height: 47px; display: block; background: url(../img/puls/puls_head_ua.jpg) no-repeat; }
+DIV#sub_head_sx .puls4 a:hover  { background: transparent; }
+DIV#sub_head_sx .puls4 a:active { background: transparent; }
+
+DIV#sub_head_sx .puls5          { width: 79px; height: 47px; float: left; background: url(../img/puls/puls_head_tb.jpg) no-repeat; }
+DIV#sub_head_sx .puls5 a        { width: 79px; height: 47px; display: block; background: url(../img/puls/puls_head_ta.jpg) no-repeat; }
+DIV#sub_head_sx .puls5 a:hover  { background: transparent; }
+DIV#sub_head_sx .puls5 a:active { background: transparent; }
+
+DIV#sub_head     { position: relative; width: 732px; height: 39px; clear: all; background: url(../img/layout/sub_header.jpg) no-repeat; text-align: center; }
+
+DIV#body         { position: relative; width: 732px; background: url(../img/sfnd_body.jpg) repeat-y; text-align: center; overflow: hidden; }
+
+DIV#body_sx      { position: relative; float: left; width: 510px; text-align: center; }
+
+DIV#body_sx p    { margin: 10px 20px 20px 24px; line-height: 20px; }
+
+DIV#body_md      { position: relative; float: left; width: 35px; text-align: left; color: #005E00; margin: 20px 0px 0px 0px; }
+
+DIV#body_md img  { width: 35px; height: 36px; border: 0px; margin: 2px 0px 2px 0px; }
+
+DIV#body_dx      { position: relative; float: right; width: 187px; text-align: center; color: #005E00; }
+
+DIV#body_dx p    { margin: 5px 10px 5px 12px; line-height: 17px; }
+
+DIV#footer       { position: relative; width: 732px; height: 90px; background: url(../img/layout/footer.jpg) no-repeat; text-align: center; font-size: 10px; letter-spacing: 0px; color: #478E47; }
+
+DIV#footer a     { color: #478E47; }
+
+DIV#footer p.fsx { float: left; margin: 42px 0px 0px 5px; line-height: 18px; text-align: justify; }
+
+DIV#footer p.fdx { float: right; margin: 42px 5px 0px 0px; }
+
+DIV#footer p.fdx img { width: 160px; height: 36px; border: 0px; }
+
+FORM              { margin: 0px 0px 0px 0px; }
+
+FORM input        { font-size: 11px; color: #434343; background-color: #fff; border: 1px #F08621 solid; }
+
+FORM .button      { font-size: 10px; color: #F5F5F5; background-color: #72AB00; border: 2px #72AB00 inset; margin: 1px 1px 1px 1px; cursor: hand; }
+
+FORM .button_over { font-size: 10px; color: #F5F5F5; background-color: #72AB00; border: 3px #72AB00 outset; cursor: hand; text-decoration: underline; }
+
+FORM .select      { border: 1px #F08621 solid; font-size: 10px; }
+
+FORM textarea     { font-size: 11px; color: #434343; background-color: #ffffff; border: 1px #F08621 solid; font-family: verdana; }
+
+FORM .image       { border: 0px #EFB379 solid; }
+
+FORM#formpage                     { padding: 5px 0px 5px 0px; margin: 0px 12px 0px 10px; }
+
+FORM#formpage DIV                 { CLEAR: both; MARGIN-BOTTOM: 10px; }
+
+FORM#formpage LABEL               { DISPLAY: block; PADDING: 0px 0px 3px 22px; FLOAT: left; WIDTH: 40%; CURSOR: hand; text-align: left; }
+
+FORM#formpage LABEL.required      { padding-top: 1px; BACKGROUND-IMAGE: url(../img/ico/required.gif); BACKGROUND-REPEAT: no-repeat; }
+
+FORM#formpage LABEL.problem       { padding-top: 1px; BACKGROUND-IMAGE: url(../img/ico/caution.gif); BACKGROUND-REPEAT: no-repeat }
+
+FORM#formpage LABEL.completed     { padding-top: 1px; BACKGROUND-IMAGE: url(../img/ico/complete.gif); BACKGROUND-REPEAT: no-repeat }
+
+FORM#formpage DIV#submitdiv       { width: 100%; margin-top: 50px; text-align: right; }
+
+FORM#formpage TABLE               { width: 40%; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-align: left; float: left; clear: right; }
+
+FORM#formpage .noinput            { width: 15px; height: 15px; BORDER: #72AB00 0px solid; background: #005E00; }
+
+FORM#formpage INPUT               { width: 50%; BORDER: #72AB00 2px solid; }
+
+FORM#formpage TEXTAREA            { width: 50%; BORDER: #72AB00 2px solid; }
+
+FORM#formpage select              { width: 51.5%; BORDER: #72AB00 2px solid; font-size: 12px; }
+
+FORM#formpage INPUT:unknown       { BORDER: #434343 1px solid; }
+
+FORM#formpage TEXTAREA:unknown    { BORDER: #434343 1px solid; }
+
+.alt      { display: none; }
+
+.red      { color: #cc3300; }
+
+.olive    { color: #72AB00; }
+
+.print    { display: none; }
+
+.small    { font-size: 90%; }
+
+small     { font-size: 90%; }
+
+.big      { font-size: 120%; }
+
+big       { font-size: 120%; }
+
+.left     { text-align: left; }
+
+.right    { text-align: right; }
+
+.center   { text-align: center; }
+
+.justify  { text-align: justify; }
+
+ul        { list-style-image:url(http://www.coopgloria.it/img/ico/ico_li.gif); line-height: 18px; }
+
+h2        { text-align: left; margin: 1px 0px 0px 10px; }
+
+h3        { text-align: left; margin: 1px 0px 0px 4px; }
+
+table#tabcont            { width: 100%; font-size: 12px; }
+
+table#tabcont td         { text-align: left; vertical-align: top; }
+
+BODY DIV.tooltip         { position: absolute; top: 0px; left: 90px; width: 160px; z-index: 2; border: 1px solid #38732E; background-color: #549F45; color: #004A00; font-size: 10px; text-align: left; letter-spacing: 0px; padding:  1px; line-height: 14px; cursor: hand; }
+
+DIV#head_sx .tooltip     { left: 320px; top: 20px; }
+
+DIV#sub_head_sx .tooltip { left: 100px; top: -50px; }
+
+DIV#body_md .tooltip     { left: -180px; top: -10px; }
+
+DIV#body_dx .tooltip     { left: 100px; top: 20px; }
+
+DIV#footer .tooltip      { top: -30px; }
+
+DIV#body .img_tit        { width: 233px; height: 38px; border: 0px; }
+
+DIV#body .img_tit_dx     { width: 183px; height: 38px; border: 0px; }
+
+DIV#body .hom-left-pic   { width: 80px; height: 80px; float: left; border: 0px; margin-right: 5px; }
+
+DIV#body .hom-center-pic { width: 80px; height: 80px; float: center; border: 0px; margin-right: 5px; }
+
+DIV#body .hom-right-pic  { width: 80px; height: 80px; float: right; border: 0px; margin-right: 5px; }
+
+DIV#body .rep-left-pan   { width: 250px; height: 150px; float: left; border: 0px; margin-right: 5px; }
+
+DIV#body .rep-left-pic   { width: 150px; height: 150px; float: left; border: 0px; margin-right: 5px; }
+
+DIV#body .rep-midl-pic   { width: 150px; height: 150px; float: middle; border: 0px; margin-right: 5px; }
+
+DIV#body .rep-right-pic  { width: 150px; height: 150px; float: right; border: 0px; margin-left: 5px; }
+
+DIV#body .ico-left       { width: 50px; height: 50px; float: left; border: 0px; }
+
+DIV#body .prod-left      { width: 150px; height: 150px; float: left; border: 0px; margin: 0px 5px 0px 0px; }
+
+DIV#body .ico-right   { width: 50px; height: 50px; float: right; border: 0px; }
+
+DIV#body .ico-20x20     { width: 20px; height: 20px; border: 0px; vertical-align: middle; margin-right: 3px; }
+
+DIV#body .ico-30x30     { width: 30px; height: 30px; border: 0px; vertical-align: middle; margin-right: 3px; }
+
+DIV#body_sx .sx {
+    float: left; width: 50%; margin: 5px 0px 0px 0px;
+}
+
+DIV#body_sx .dx {
+    float: right; width: 50%; margin: 5px 0px 0px 0px; background: url(../img/layout/hr-vert.gif) top left repeat-y;
+}
+
+DIV#body_sx .sx p, DIV#body_sx .dx p {
+    margin: 5px 10px 5px 12px;
+}
+
+DIV#body_sx p.sep {
+    background: url(../img/layout/hr-body-left.gif) left top repeat-x; height: 1px; font-size: 1px; margin: 15px 10px 15px 10px;
+}
+
+
+.mlinf     { 
+background: url(../img/mlinf.gif) top left no-repeat;
+width: auto;
+height: 16px;
+display: block;
+padding: 0 0px 6px 0px;
+margin: 0px 30px 0px 25px;
+cursor: hand;
+cursor: pointer;
+}
+.mlcom     { 
+background: url(../img/mlcom.gif) top left no-repeat;
+width: auto;
+height: 16px;
+display: block;
+padding: 0 0px 0 0px;
+margin: 0px 30px 0px 25px;
+cursor: hand;
+cursor: pointer;
+}
